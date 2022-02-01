@@ -1,0 +1,24 @@
+body {
+    background-color: cornflowerblue;
+    font: normal 18px arial;
+}
+
+header {
+    text-align: center;
+    color:black;
+}
+
+section {
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+    font: normal 14px arial ;
+}
+
+footer {
+    text-align: center;
+    font: 13px arial, helvetica
+}

@@ -1,0 +1,33 @@
+body {
+    font: normal 15px arial; /* fonte do body*/
+    background-color: rgba(65, 65, 236, 0.753);
+    
+}
+
+header { 
+    color: white; /* Cor da fonte*/
+    text-align: center; /* Para centralizar o texto na pagina*/
+}
+
+section {
+    background: white; /* Para deixar branco a area da section*/
+    border-radius: 10px; /* para criar bordas na section */
+    padding: 15px; /* para criar espaço ao redor do conteudo de um elemento */
+    width: 500px; /* Determina a largura da area da section*/
+    margin: 0 auto; /* Define a margem nos quetro lados do elemento*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.589); /* Define uma sombra na borda da section*/
+}
+
+select#flista {
+    width: 150px;
+}
+
+div {
+
+}
+
+footer {
+    color: white; /* cor da fonte*/
+    text-align: center; /* Alinhada ao centro*/
+    font-style: italic; /* Fonte em italico */
+}

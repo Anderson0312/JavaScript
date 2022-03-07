@@ -3,7 +3,7 @@ let lista = document.getElementById('flista');
 let res = document.getElementById('res');
 let valores = [];
 
-function isNumero(n) {
+function isNum(n) {
     if(Number(n) >= 1 && Number(n) <= 100) {
         return true;
     } else {
@@ -12,7 +12,7 @@ function isNumero(n) {
 }
 
 
-function inLista(n, l) {
+function inList(n, l) {
     if(l.indexOf(Number(n)) != -1) {
         return true;
     } else {
@@ -22,7 +22,7 @@ function inLista(n, l) {
 
 
 function adicionar() {
-    if(isNumero(num.value) && !inLista(num.value, valores)) {
+    if(isNum(num.value) && !inList(num.value, valores)) {
         valores.push(Number(num.value)); 
         let item = document.createElement('option');
         item.text = `Valor ${num.value} Adiconado`
@@ -36,7 +36,7 @@ function adicionar() {
 }
 
 
-function finalizar(){
+function finish() {
     if (valores.length == 0) {
         window.alert('Adicione valores antes de finalizar.')
     } else {
